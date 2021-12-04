@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class SharedService {
-  readonly APIUrl="http://localhost:55003/api";
+  readonly APIUrl="https://finalproject202112.azurewebsites.net/api/account";
   readonly PhotoUrl="http://localhost:55003/Profile"
 
   constructor(private http:HttpClient) { }
